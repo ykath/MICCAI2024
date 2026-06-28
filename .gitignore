@@ -1,0 +1,43 @@
+# Downloaded paper files
+pdfs/
+
+# Cached source pages and generated runtime folders
+cache/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Runtime logs
+*.log
+*.err.log
+
+# SQLite runtime sidecar files; keep the main .sqlite tracked if desired
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/*.sqlite-journal
+
+# Partial downloads and local temp files
+*.part
+*.tmp
+*.temp
+~$*
+Thumbs.db
+.DS_Store
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+*.pem
+*.key
+*.p12
+
+# IDE / editor state
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
